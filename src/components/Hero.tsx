@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 const Hero = () => {
   const [roleIndex, setRoleIndex] = useState(0);
-  const roles = ["Flutter Developer", "Software Engineer", "Tech Enthusiast"];
+  const roles = ["Data Scientist", "Data Analytics Engineer", "AI Enthusiast"];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -20,14 +20,13 @@ const Hero = () => {
         <div className="md:w-1/2 text-center md:text-left space-y-6 animate-fade-in">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground">
             Hi, I'm{" "}
-            <span className="text-primary">Muhammad Nouman Khan</span>
+            <span className="text-primary">Mohamed BOUABIDI</span>
           </h1>
           <h2 className="text-2xl md:text-3xl text-foreground/80 h-8">
             {roles[roleIndex]}
           </h2>
-          <p className="text-lg text-foreground/60 max-w-lg">
-            Passionate about creating beautiful and functional mobile applications
-            that make a difference.
+          <p className="text-lg text-foreground/60 max-w-lg">    
+            🚀 Mission: Leveraging machine learning, and data analytics to drive process improvement and operational efficiencies.
           </p>
           <a
             href="#contact"
