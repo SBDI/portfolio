@@ -1,15 +1,19 @@
+import project1Image from "../static/images/project1.jpg";
+import project2Image from "../static/images/project2.jpg";
+import project3Image from "../static/images/project3.jpg";
+
 const Portfolio = () => {
   const projects = [
   {
     title: "Predictive Analytics for Gold Recovery",
     description: "Developed machine learning models to optimize gold recovery processes, achieving a 2-point efficiency increase and a $3M production gain.",
-    image: "https://images.unsplash.com/photo-1581091870621-1a580fe5e5ea?w=500",
+    image: project1Image,
     tags: ["Python", "Scikit-learn", "Tableau", "SQL"],
   },
   {
     title: "Geo-Metallurgical Predictive Model",
     description: "Created a predictive model to assist mine planning by analyzing key geo-metallurgical factors for resource allocation.",
-    image: "https://images.unsplash.com/photo-1517960413843-0aee8e2d14e2?w=500",
+    image: project2Image,
     tags: ["Python", "Scikit-learn", "Data Analytics"],
   },
   {
@@ -21,7 +25,7 @@ const Portfolio = () => {
   {
     title: "Reporting System for Decision Support",
     description: "Designed and implemented a reporting system using Power BI and SQL to support data-driven decision-making processes.",
-    image: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?w=500",
+    image: project3Image,
     tags: ["Power BI", "SQL", "Data Visualization"],
   },
   {
