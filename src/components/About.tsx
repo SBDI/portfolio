@@ -32,10 +32,8 @@ const About = () => {
         </h2>
         <div className="max-w-3xl mx-auto text-center mb-16">
           <p className="text-lg text-foreground/80">
-            I'm a passionate software engineer specializing in Flutter development.
-            With a strong foundation in mobile app development and a keen eye for
-            design, I create seamless, user-friendly applications that solve
-            real-world problems.
+           I am a seasoned data scientist with a proven track record of unraveling complex and challenging topics through the lens of data. 
+            With 3+ years of hands-on experience in the field, I thrive on leveraging the power of data to drive informed decision-making. 
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
