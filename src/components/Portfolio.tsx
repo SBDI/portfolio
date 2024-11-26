@@ -1,24 +1,37 @@
 const Portfolio = () => {
   const projects = [
-    {
-      title: "E-commerce App",
-      description: "A full-featured shopping app built with Flutter and Firebase",
-      image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=500",
-      tags: ["Flutter", "Firebase", "Stripe"],
-    },
-    {
-      title: "Social Media Dashboard",
-      description: "Real-time analytics dashboard for social media management",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500",
-      tags: ["Flutter", "REST API", "Charts"],
-    },
-    {
-      title: "Fitness Tracker",
-      description: "Health and fitness tracking app with workout plans",
-      image: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=500",
-      tags: ["Flutter", "SQLite", "BLoC"],
-    },
-  ];
+  {
+    title: "Predictive Analytics for Gold Recovery",
+    description: "Developed machine learning models to optimize gold recovery processes, achieving a 2-point efficiency increase and a $3M production gain.",
+    image: "https://images.unsplash.com/photo-1581091870621-1a580fe5e5ea?w=500",
+    tags: ["Python", "Scikit-learn", "Tableau", "SQL"],
+  },
+  {
+    title: "Geo-Metallurgical Predictive Model",
+    description: "Created a predictive model to assist mine planning by analyzing key geo-metallurgical factors for resource allocation.",
+    image: "https://images.unsplash.com/photo-1517960413843-0aee8e2d14e2?w=500",
+    tags: ["Python", "Scikit-learn", "Data Analytics"],
+  },
+  {
+    title: "Automated Email Categorization",
+    description: "Built a Python-based machine learning solution to automate email data extraction and categorization, increasing operational efficiency by 25%.",
+    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500",
+    tags: ["Python", "Flask", "NLP", "Azure"],
+  },
+  {
+    title: "Reporting System for Decision Support",
+    description: "Designed and implemented a reporting system using Power BI and SQL to support data-driven decision-making processes.",
+    image: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?w=500",
+    tags: ["Power BI", "SQL", "Data Visualization"],
+  },
+  {
+    title: "Fruit Maturity Estimation",
+    description: "Developed a computer vision model using TensorFlow to estimate fruit maturity stages, deployed on desktop and mobile applications.",
+    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500",
+    tags: ["TensorFlow", "Keras", "OpenCV", "Python"],
+  },
+];
+
 
   return (
     <section id="portfolio" className="py-20">
