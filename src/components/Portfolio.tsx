@@ -19,21 +19,10 @@ const Portfolio = () => {
   {
     title: "Automated Email Categorization",
     description: "Built a Python-based machine learning solution to automate email data extraction and categorization, increasing operational efficiency by 25%.",
-    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500",
-    tags: ["Python", "Flask", "NLP", "Azure"],
-  },
-  {
-    title: "Reporting System for Decision Support",
-    description: "Designed and implemented a reporting system using Power BI and SQL to support data-driven decision-making processes.",
     image: project3Image,
-    tags: ["Power BI", "SQL", "Data Visualization"],
-  },
-  {
-    title: "Fruit Maturity Estimation",
-    description: "Developed a computer vision model using TensorFlow to estimate fruit maturity stages, deployed on desktop and mobile applications.",
-    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500",
-    tags: ["TensorFlow", "Keras", "OpenCV", "Python"],
-  },
+    tags: ["Python", "Flask", "NLP", "Azure"],
+  }
+  
 ];
 
 

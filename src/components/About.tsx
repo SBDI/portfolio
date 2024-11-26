@@ -1,28 +1,28 @@
-import { Code, Database, GitBranch, Smartphone } from "lucide-react";
+import { Beaker, ChartBar, Cloud, Code, Database, GitBranch, Smartphone } from "lucide-react";
 
 const About = () => {
   const skills = [
     {
-      icon: <Smartphone className="h-6 w-6" />,
-      name: "Flutter Development",
-      description: "Building beautiful cross-platform mobile applications",
-    },
-    {
       icon: <Database className="h-6 w-6" />,
-      name: "Firebase",
-      description: "Backend development and real-time database management",
+      name: "Data Management & SQL",
+      description: "Proficient in querying and managing large datasets using SQL and relational databases.",
     },
     {
-      icon: <Code className="h-6 w-6" />,
-      name: "API Integration",
-      description: "Connecting applications with various web services",
+      icon: <ChartBar className="h-6 w-6" />,
+      name: "Data Visualization",
+      description: "Skilled in creating impactful visualizations using Power BI, Tableau, and Matplotlib.",
     },
     {
-      icon: <GitBranch className="h-6 w-6" />,
-      name: "Version Control",
-      description: "Git workflow and collaborative development",
+      icon: <Beaker className="h-6 w-6" />,
+      name: "Machine Learning & AI",
+      description: "Experienced in building predictive models and deploying AI solutions with Scikit-learn and TensorFlow.",
     },
-  ];
+    {
+      icon: <Cloud className="h-6 w-6" />,
+      name: "Cloud Computing",
+      description: "Leveraging cloud platforms like Azure for deploying scalable data science solutions.",
+    },
+  ];  
 
   return (
     <section id="about" className="py-20 bg-secondary/20">

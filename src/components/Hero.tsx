@@ -1,3 +1,4 @@
+import profileImage from "../static/images/profile.jpg";
 import { useEffect, useState } from "react";
 
 const Hero = () => {
@@ -39,8 +40,8 @@ const Hero = () => {
           <div className="relative w-64 h-64 mx-auto">
             <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary to-accent animate-pulse" />
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
-              alt="Muhammad Nouman Khan"
+              src= {profileImage}
+              alt="Mohamed Bouabidi"
               className="absolute inset-1 rounded-full object-cover border-4 border-white"
             />
           </div>

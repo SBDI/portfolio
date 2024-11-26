@@ -118,9 +118,9 @@ const Contact = () => {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h4 className="font-semibold mb-2">Location</h4>
-              <p className="text-foreground/60">Your City, Country</p>
+              <p className="text-foreground/60">Casablanca, Morocco</p>
               <h4 className="font-semibold mt-4 mb-2">Email</h4>
-              <p className="text-foreground/60">your.email@example.com</p>
+              <p className="text-foreground/60">m.bouabidi@enim.ac.ma</p>
             </div>
           </div>
         </div>
