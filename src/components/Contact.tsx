@@ -101,7 +101,7 @@ const Contact = () => {
                   <Github className="h-6 w-6" />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/mohamed-bouabidi/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-foreground/60 hover:text-primary transition-colors"
@@ -109,7 +109,7 @@ const Contact = () => {
                   <Linkedin className="h-6 w-6" />
                 </a>
                 <a
-                  href="mailto:example@email.com"
+                  href="m.bouabidi@enim.ac.ma"
                   className="text-foreground/60 hover:text-primary transition-colors"
                 >
                   <Mail className="h-6 w-6" />
